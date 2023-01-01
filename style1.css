@@ -1,0 +1,59 @@
+body{
+    
+    background-image:url("bg2.webp");
+    background-repeat:no-repeat;
+    background-size:1700px 1700px;
+}
+
+ul{
+   list-style-type:none;
+   margin:0;
+   padding:0px;
+   overflow:hidden;
+   background-color:blue;
+}
+li{
+    float:right;
+}
+li a{
+    display: block;
+    color:white;
+    font-size:30px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:rgb(222, 18, 18);
+}
+
+.h1{
+    font-size:60px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(25, 25, 240);
+    font-weight: bold;
+    text-align:center;
+}
+table{
+    border-collapse:collapse;
+    width:100%;
+    color:blue;
+    font-size:25px;
+    text-align:left;
+}
+th{
+    background-color:blue;
+    color:white;
+}
+tr:nth-child(odd){
+    background-color:rgb(158, 204, 233);
+}
+button{
+    color:white;
+    background-color:blue;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color:red;
+    color:white;
+  }
