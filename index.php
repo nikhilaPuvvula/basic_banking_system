@@ -13,7 +13,7 @@
     <script src='main.js'></script>
 </head>
 <body> 
-    <?php
+   <?php
       if(isset($_SESSION['status']))
       {
         echo $_SESSION['status'];
