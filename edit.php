@@ -16,7 +16,7 @@
            $result= mysqli_query($conn,$sql);
           
            if($result){
-            $_SESSION['status'] "<script>alert('customer added successfully')</script>";    
+            $_SESSION['status']= "<script>alert('customer added successfully')</script>";    
                        header('location:index.php');
                      } 
            else{
