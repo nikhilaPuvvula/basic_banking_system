@@ -8,7 +8,7 @@
     <body>
        <ul>
         <li><a href="https://www.thesparksfoundationsingapore.org/contact-us/">CONTACT US</a></li>
-        <li><a>SETTINGS</a></li>
+        <li><a href="edit.html">SETTINGS</a></li>
         <li><a href="http://localhost/basic_banking_system/">HOME</a></li>
       </ul>
       <br><br><
@@ -25,7 +25,7 @@
                 <th>STATUS</th>
             </tr>
        <?php
-         $conn=mysqli_connect("localhost","root","Nikhila@123","grip_bank");
+         $conn=mysqli_connect("localhost","root","","grip_bank");
          //check connection
          if($conn->connect_error)
          {

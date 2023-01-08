@@ -26,10 +26,10 @@
     <br>
     <div class="h1"><marquee>WELCOME TO GRIP BANK</marquee></div>
     <br>
-    <div class=c1><p align=center><a href="customer.php"><img src="customer.jpg" height="250px"></a></p><a href="customer.php"> <p align=center>VIEW ALL CUSTOMERS</p></a></div>
+    <div class=c1><p align=center><a href="customer.php"><button><img src="customer.jpg" height="250px"></button></a></p><a href="customer.php" > <p align=center class=c8>VIEW ALL CUSTOMERS</p></a></div>
      
-    <div class=c2><a href="edit.html"><img src="edit.png" height="230px"></a></p><a href="edit.html"> <p align=center>EDIT CUSTOMERS</p></a></div>
+    <div class=c2><a href="edit.html"><button><img src="edit.png" height="230px"></button></a></p><a href="edit.html"> <p align=center class=c8>EDIT CUSTOMERS</p></a></div>
 
-    <div class=c7><a href="transaction_history.php"><img src="history.png" height="230px"></a></p><a href="transaction_history.php"> <p align=center>TRANSACTION HISTORY</p></a></div>
+    <div class=c7><a href="transaction_history.php"><button><img src="history.png" height="230px"></button></a></p><a href="transaction_history.php"> <p align=center class=c8>TRANSACTION HISTORY</p></a></div>
 </body>
 </html>

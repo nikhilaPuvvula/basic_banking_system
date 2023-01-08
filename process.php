@@ -1,6 +1,6 @@
 <?php      
            session_start();
-           $conn=mysqli_connect("localhost","root","Nikhila@123","grip_bank");
+           $conn=mysqli_connect("localhost","root","","grip_bank");
            //check connection
            if($conn->connect_error)
            {
@@ -38,14 +38,14 @@
             $rec_res = mysqli_query($conn, $rec_query);
             if($res && $rec_res){
                 $msg="SUCCESS";
-                $new = "INSERT INTO `transactions` (`TRANSACTION_ID`, `TRANSFER_FROM`, `ACCOUNT_NUMBER1`, `TRANFER_TO`, `ACCOUNT_NUMBER2`,`AMOUNT`, `STATUS`) VALUES (NULL,'$from', '$c1', '$to', '$c2','$amount','success');";
+                $new = "INSERT INTO `transactions` (`TRANSACTION_ID`, `TRANSFER_FROM`, `ACCOUNT_NUMBER1`, `TRANFER_TO`, `ACCOUNT_NUMBER2`,`AMOUNT`, `STATUS`) VALUES (NULL,'$from', '$c1', '$to', '$c2','$amount','SUCCESS');";
                 $pra=mysqli_query($conn,$new);
 
                 $_SESSION['status'] = "<script>alert('TRANSACTION SUCCESSFULL!!');</script>";    
                  header('location:index.php');
                } 
           else{
-                $new1 = "INSERT INTO `transactions` (`TRANSFER_FROM`, `ACCOUNT_NUMBER1`, `TRANFER_TO`, `ACCOUNT_NUMBER2`,`AMOUNT`,`STATUS`) VALUES ('$from', '$c1', '$to', '$c2','$amount','fail');";
+                $new1 = "INSERT INTO `transactions` (`TRANSFER_FROM`, `ACCOUNT_NUMBER1`, `TRANFER_TO`, `ACCOUNT_NUMBER2`,`AMOUNT`,`STATUS`) VALUES ('$from', '$c1', '$to', '$c2','$amount','FAIL');";
                 $pra1=mysqli_query($conn,$new1);
 
 
@@ -56,7 +56,7 @@
            }
         else
             {
-                $new2 ="INSERT INTO `transactions` (`TRANSFER_FROM`, `ACCOUNT_NUMBER1`, `TRANFER_TO`, `ACCOUNT_NUMBER2`,`AMOUNT`, `STATUS`) VALUES ('$from', '$c1', '$to', '$c2','$amount','fail');" ;
+                $new2 ="INSERT INTO `transactions` (`TRANSFER_FROM`, `ACCOUNT_NUMBER1`, `TRANFER_TO`, `ACCOUNT_NUMBER2`,`AMOUNT`, `STATUS`) VALUES ('$from', '$c1', '$to', '$c2','$amount','FAIL');" ;
                 $pra2 =mysqli_query($conn,$new2);
 
                $_SESSION['status']="<script>alert('Insufficient Balance---Transaction Not  Successful!!');</script>";

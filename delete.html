@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Add customers</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+        <style>
+    .c3{
+       color:blue;
+       font-size:30px;
+    }
+   .c4{
+    color:white;
+    background:red;
+    font-size:20px;
+    }
+    .c5{
+       position:absolute;
+       top:185px;
+       left:500px;
+     }
+        </style>
+    </head>
+
+    <body background="bg2.webp" >
+        <ul>
+            <li><a href="https://www.thesparksfoundationsingapore.org/contact-us/">CONTACT US</a></li>
+            <li><a>SETTINGS</a></li>
+            <li><a href="http://localhost/basic_banking_system/">HOME</a></li>
+        </ul>
+        <h1 style="font-size:50px;color:blue;text-align:center"><u>DELETE CUSTOMER</u></h1>
+      <div class="c5">
+       <form action="delete.php" method="POST">
+        <label for="name" class="c3"><b>Customer Name :</b></label>
+        <input type="text" class="c3" placeholder="  enter customer name" name="name" id="name" required><br><br> 
+    
+        <label for="email" class="c3"><b>Email ID :</b></label>
+        <input type="text" class="c3" placeholder="   enter email id" name="email" id="email" required><br><br>
+
+        <label for="acc_number" class="c3"><b>Account Number :</b></label>
+        <input type="text" class="c3" placeholder="   enter Account Number" name="acc_num" id="acc_num" required><br><br>
+
+        <button type="submit" class="c4">DELETE CUSTOMER</button>
+     </div>
+    </form>
+</body>
+</html>

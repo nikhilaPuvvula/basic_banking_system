@@ -24,7 +24,7 @@
                 <th>TRANSFER</th>
             </tr>
        <?php
-         $conn=mysqli_connect("localhost","root","Nikhila@123","grip_bank");
+         $conn=mysqli_connect("localhost","root","","grip_bank");
          //check connection
          if($conn->connect_error)
          {

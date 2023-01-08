@@ -1,52 +1,20 @@
 <html>
-    <head>
-        <title>Add customers</title>
-        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-        <style>
-    .c3{
-       color:blue;
-       font-size:30px;
-    }
-   .c4{
-    color:white;
-    background:red;
-    font-size:20px;
-    }
-    .c5{
-       position:absolute;
-       top:185px;
-       left:500px;
-     }
-        </style>
-    </head>
-
-    <body background="bg2.webp" >
-        <ul>
-            <li><a href="https://www.thesparksfoundationsingapore.org/contact-us/">CONTACT US</a></li>
-            <li><a>SETTINGS</a></li>
-            <li><a href="http://localhost/basic_banking_system/">HOME</a></li>
-        </ul>
-       <h1 style="font-size:60px;color:blue;text-align:center"><u>ADD CUSTOMER DETAILS</u></h1>
-      <div class="c5">
-       <form action="edit.php" method="POST">
-        <label for="slno" class="c3"><b>sl no</b></label>
-        <input type="text" class="c3" placeholder="enter sl no" name="sl_no" id="sl_no" required><br><br> 
-
-        <label for="cust_name" class="c3"><b>customer name</b></label>
-        <input type="text" class="c3" placeholder="enter customer name" name="cust_name" id="cust_name" required><br><br>
-
-        <label for="acc_number" class="c3"><b>account number</b></label>
-        <input type="text" class="c3" placeholder="enter account number" name="acc_number" id="acc_number" required><br><br>
-
-        <label for="email"  class="c3"><b>email</b></label>
-        <input type="text" class="c3" placeholder="enter email" name="email" id="email" required><br><br>
-
-        <label for="balance" class="c3"><b>balance</b></label>
-        <input type="text" class="c3" placeholder="enter balance" name="balance" id="balance" required><br><br>
-
-        <button type="submit" class="c4">ADD CUSTOMER</button>
-        
-       </div>
-   </form>
- </body>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>GRIP_BANK</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  </head>
+  <body>
+    <ul>
+        <li><a href="https://www.thesparksfoundationsingapore.org/contact-us/">CONTACT US</a></li>
+        <li><a href="edit.html">SETTINGS</a></li>
+        <li><a href="http://localhost/basic_banking_system/">HOME</a></li>
+    </ul>
+       <h1 style="font-size:50px;color:blue;text-align:center"><u>EDIT CUSTOMER DETAILS</u></h1>
+       <a href="add.html"><button class="c9">ADD CUSTOMER DETAILS</button>
+        <br><br>
+       <a href="delete.html"><button class="c10">DELETE CUSTOMER DETAILS</button>
+  </body>
 </html>

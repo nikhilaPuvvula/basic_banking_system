@@ -35,18 +35,44 @@ li a:hover{
 }
 .c1{
     position:absolute;
-    top:155px;
-    left:340px;
+    top:170px;
+    left:320px;
 }
 .c2{
     position:absolute;
-    top:170px;
-    right:400px;
+    top:190px;
+    right:375px;
 }
 .c7{
 
     position:absolute;
-    top:180px;
-    right:655px;
+    top:190px;
+    right:650px;
 
+}
+.c8:hover{
+    color:red;
+    font-size:larger;
+}
+.c9{
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    position:absolute;
+    top:215px;
+    left:38%;
+    transition-duration: 0.4s;
+}
+.c10{
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    position:absolute;
+    top:310px;
+    left:36.5%;
+    transition-duration: 0.4s;
+}
+.c9:hover,.c10:hover{
+    background-color:red;
+    color:white;
 }
