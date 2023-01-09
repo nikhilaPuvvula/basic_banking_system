@@ -8,8 +8,8 @@
     <body>
        <ul>
         <li><a href="https://www.thesparksfoundationsingapore.org/contact-us/">CONTACT US</a></li>
-        <li><a>SETTINGS</a></li>
-        <li><a href="http://localhost/basic_banking_system/">HOME</a></li>
+        <li><a href="edit.html">SETTINGS</a></li>
+        <li><a href="index.php">HOME</a></li>
       </ul>
       <br><br><
         <div class="h1">LIST OF CUSTOMERS IN GRIP BANK</div>

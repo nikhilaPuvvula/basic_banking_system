@@ -21,7 +21,7 @@
     <ul>
         <li><a href="https://www.thesparksfoundationsingapore.org/contact-us/">CONTACT US</a></li>
         <li><a href="edit.html">SETTINGS</a></li>
-        <li><a href="http://localhost/basic_banking_system/">HOME</a></li>
+        <li><a href="index.php">HOME</a></li>
     </ul>
     <br>
     <div class="h1"><marquee>WELCOME TO GRIP BANK</marquee></div>
